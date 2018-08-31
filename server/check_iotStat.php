@@ -1,4 +1,10 @@
 <?php
-  echo "test";
+  include "dblink.php";
+  if($_GET['token']=="ploysai72"){
+    echo "teken id = ".$_GET['token']."";
+  }
+  else{
+
+  }
 
 ?>
