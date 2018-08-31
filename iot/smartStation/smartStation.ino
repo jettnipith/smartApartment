@@ -8,10 +8,10 @@ EnergyMonitor emon1;                   // Create an instance
 #define LED D0
 #define relay1 D2
 
-const char* ssid = "Godemo";
-const char* password = "gl123456";
+const char* ssid = "xxxx";
+const char* password = "xxxx";
 
-const char* host = "http://vrsim4learning.com/smartcafe"; //ใส่ IP หรือ Host ของเครื่อง Database ก็ได้
+const char* host = "http://vrsim4learning.com/xxxx"; //ใส่ IP หรือ Host ของเครื่อง Database ก็ได้
 
 void setup() {
   pinMode(LED, OUTPUT);
